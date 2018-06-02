@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Received Files" />
+        <item
+            android:id="@+id/nav_callLogs"
+            android:icon="@android:drawable/sym_call_missed"
+            android:title="Call Logs" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

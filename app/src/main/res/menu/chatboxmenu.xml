@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Voice Call"
+        android:id="@+id/call"
+        android:showAsAction="ifRoom"/>
+    <item android:title="file transfer"
+        android:id="@+id/Ftransfer"
+        android:showAsAction="ifRoom"/>
+
+</menu>
